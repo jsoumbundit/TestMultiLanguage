@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -11,62 +12,163 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true">
 
-    <!--Content-->
-    <LinearLayout
-        android:padding="@dimen/gap8"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:id="@+id/textHeader"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:layout_marginTop="@dimen/gap8"
+        <!--Content-->
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/gap8">
 
-        <TextView
-            android:id="@+id/textContent01"
-            android:textStyle="normal"
-            android:layout_marginTop="@dimen/gap4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/textHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/gap8"
+                android:textAlignment="center"
+                android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textContent02"
-            android:textStyle="normal"
-            android:layout_marginTop="@dimen/gap4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/textContent01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/gap4"
+                android:textStyle="normal" />
 
-        <TextView
-            android:id="@+id/textContent03"
-            android:textStyle="normal"
-            android:layout_marginTop="@dimen/gap4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/textContent02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/gap4"
+                android:textStyle="normal" />
 
-        <TextView
-            android:text="@string/stringEndLine"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/textContent03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/gap4"
+                android:textStyle="normal" />
 
-    </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stringEndLine" />
+
+        </LinearLayout>
 
     </ScrollView>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingCheck"
+
+    <!--Text show message "En"-->
+    <TextView
+        android:id="@+id/textView_En"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:src="@drawable/ic_thailand_flat"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="256dp"
+        android:background="#212121"
+        android:padding="8dp"
+        android:text="En"
+        android:textColor="#ffffff"
+        android:visibility="invisible" />
+    <!--Floating action button "English Flag"-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_English_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="246dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:elevation="16dp"
+        android:focusable="true"
+        android:visibility="invisible"
+        app:backgroundTint="#ffffff"
+        app:pressedTranslationZ="12dp"
+        app:srcCompat="@drawable/ic_england_flat" />
+    <!--Text show message "Th"-->
+    <TextView
+        android:id="@+id/textView_Th"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="186dp"
+        android:background="#212121"
+        android:padding="8dp"
+        android:text="Th"
+        android:textColor="#ffffff"
+        android:visibility="invisible" />
+    <!--Floating action button "Thailand Flag"-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_Thai_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="176dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:elevation="16dp"
+        android:focusable="true"
+        android:visibility="invisible"
+        app:backgroundTint="#ffffff"
+        app:pressedTranslationZ="12dp"
+        app:srcCompat="@drawable/ic_thailand_flat" />
+    <!--Text show message "Ch"-->
+    <TextView
+        android:id="@+id/textView_Ch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="116dp"
+        android:background="#212121"
+        android:padding="8dp"
+        android:text="Ch"
+        android:textColor="#ffffff"
+        android:visibility="invisible" />
+    <!--Floating action button "China Flag"-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_China_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="106dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:elevation="16dp"
+        android:focusable="true"
+        android:visibility="invisible"
+        app:backgroundTint="#ffffff"
+        app:pressedTranslationZ="12dp"
+        app:srcCompat="@drawable/ic_china_flat" />
 
-
-
+    <!--Floating action button "Icon add"-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="32dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:elevation="16dp"
+        android:focusable="true"
+        android:visibility="visible"
+        app:backgroundTint="#ffffff"
+        app:pressedTranslationZ="12dp"
+        app:srcCompat="@drawable/ic_add_black" />
 
 
 </RelativeLayout>
