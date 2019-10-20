@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         // Add Fragment to Activity
 
+        getSupportActionBar().hide(); // hide the title bar
+
         if (savedInstanceState == null) {
             getSupportFragmentManager()
                     .beginTransaction()

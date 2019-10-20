@@ -6,11 +6,17 @@
     android:layout_height="match_parent">
 
     <!--Contents-->
+
+
+    <!--Text show message "En"-->
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true">
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="0dp">
 
         <!--Content-->
         <LinearLayout
@@ -20,11 +26,17 @@
             android:padding="@dimen/gap8">
 
             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stringEndLine" />
+
+            <TextView
                 android:id="@+id/textHeader"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/gap8"
                 android:textAlignment="center"
+                android:textSize="@dimen/size16"
                 android:textStyle="bold" />
 
             <TextView
@@ -57,8 +69,6 @@
 
     </ScrollView>
 
-
-    <!--Text show message "En"-->
     <TextView
         android:id="@+id/textView_En"
         android:layout_width="wrap_content"
@@ -72,23 +82,6 @@
         android:text="En"
         android:textColor="#ffffff"
         android:visibility="invisible" />
-    <!--Floating action button "English Flag"-->
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab_English_flag"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="246dp"
-        android:background="?android:attr/selectableItemBackground"
-        android:clickable="true"
-        android:elevation="16dp"
-        android:focusable="true"
-        android:visibility="invisible"
-        app:backgroundTint="#ffffff"
-        app:pressedTranslationZ="12dp"
-        app:srcCompat="@drawable/ic_england_flat" />
     <!--Text show message "Th"-->
     <TextView
         android:id="@+id/textView_Th"
@@ -103,23 +96,6 @@
         android:text="Th"
         android:textColor="#ffffff"
         android:visibility="invisible" />
-    <!--Floating action button "Thailand Flag"-->
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab_Thai_flag"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="176dp"
-        android:background="?android:attr/selectableItemBackground"
-        android:clickable="true"
-        android:elevation="16dp"
-        android:focusable="true"
-        android:visibility="invisible"
-        app:backgroundTint="#ffffff"
-        app:pressedTranslationZ="12dp"
-        app:srcCompat="@drawable/ic_thailand_flat" />
     <!--Text show message "Ch"-->
     <TextView
         android:id="@+id/textView_Ch"
@@ -134,15 +110,106 @@
         android:text="Ch"
         android:textColor="#ffffff"
         android:visibility="invisible" />
+
+    <!--Floating action button "phone"-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="76dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:elevation="16dp"
+        android:focusable="true"
+        android:visibility="invisible"
+        app:backgroundTint="#ffffff"
+        app:pressedTranslationZ="12dp"
+        app:srcCompat="@drawable/ic_phone_in_talk_black" />
+
+    <!--Floating action button "gps"-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="61dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:elevation="16dp"
+        android:focusable="true"
+        android:visibility="invisible"
+        app:backgroundTint="#ffffff"
+        app:pressedTranslationZ="12dp"
+        app:srcCompat="@drawable/ic_gps_fixed_black" />
+
+    <!--Floating action button "language"-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="10dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:elevation="16dp"
+        android:focusable="true"
+        android:visibility="invisible"
+        app:backgroundTint="#ffffff"
+        app:pressedTranslationZ="12dp"
+        app:srcCompat="@drawable/ic_language_black" />
+
+    <!--Floating action button "English Flag"-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_English_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="10dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:elevation="16dp"
+        android:focusable="true"
+        android:visibility="invisible"
+        app:backgroundTint="#ffffff"
+        app:pressedTranslationZ="12dp"
+        app:srcCompat="@drawable/ic_england_flat" />
+
+    <!--Floating action button "Thailand Flag"-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_Thai_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="10dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:elevation="16dp"
+        android:focusable="true"
+        android:visibility="invisible"
+        app:backgroundTint="#ffffff"
+        app:pressedTranslationZ="12dp"
+        app:srcCompat="@drawable/ic_thailand_flat" />
+
     <!--Floating action button "China Flag"-->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_China_flag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="106dp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="246dp"
+        android:layout_marginEnd="10dp"
         android:background="?android:attr/selectableItemBackground"
         android:clickable="true"
         android:elevation="16dp"
@@ -155,12 +222,13 @@
     <!--Floating action button "Icon add"-->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_add"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="32dp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
         android:background="?android:attr/selectableItemBackground"
         android:clickable="true"
         android:elevation="16dp"

@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">TestMultiLanguage</string>
-    <string name="stringEndLine">\n\n\n</string>
-    <string name="header01a" >1. พิพิธภัณฑ์สถานแห่งชาติพระนครคีรี</string>
-    <string name="header01b" >1. Phra Nakhon Khiri National Museum</string>
-    <string name="header01c" >一、帕那空奇里国家博物馆</string>
+    <string name="stringEndLine">\n\n</string>
+    <string name="header01Th" >1. พิพิธภัณฑ์สถานแห่งชาติพระนครคีรี</string>
+    <string name="header01En" >1. Phra Nakhon Khiri National Museum</string>
+    <string name="header01Ch" >一、帕那空奇里国家博物馆</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->

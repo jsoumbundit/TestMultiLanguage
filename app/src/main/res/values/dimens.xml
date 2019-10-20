@@ -2,4 +2,5 @@
 <resources>
     <dimen name="gap8">8dp</dimen>
     <dimen name="gap4">4dp</dimen>
+    <dimen name="size16">16sp</dimen>
 </resources>
