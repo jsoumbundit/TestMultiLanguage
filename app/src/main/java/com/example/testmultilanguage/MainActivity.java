@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         if (savedInstanceState == null) {
             getSupportFragmentManager()
                     .beginTransaction()
-                    .add(R.id.contentMainFragment, new MapFragment())
+                    .add(R.id.contentMainFragment, new MainFragment())
                     .commit();
         }
     }
