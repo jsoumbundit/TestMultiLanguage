@@ -1,11 +1,71 @@
 <resources>
     <string name="app_name">TestMultiLanguage</string>
     <string name="stringEndLine">\n\n</string>
-    <string name="header01Th" >1. พิพิธภัณฑ์สถานแห่งชาติพระนครคีรี</string>
-    <string name="header01En" >1. Phra Nakhon Khiri National Museum</string>
-    <string name="header01Ch" >一、帕那空奇里国家博物馆</string>
+    <string name="header01Th">1. พิพิธภัณฑ์สถานแห่งชาติพระนครคีรี</string>
+    <string name="header01En">1. Phra Nakhon Khiri National Museum</string>
+    <string name="header01Ch">一、帕那空奇里国家博物馆</string>
 
+    <string name="content01En">\t\t\tPhra Nakhon Khiri National Museum, established on 27 August 1979, is a memorial museum by bringing all the royal decorations that have been handed back from the Bureau of the Royal Household (the Ministry of Interior). They were registered as antique objects, conserved and display in Phetphoompairot Palace and the Pramote Mahaisawan Palace.
+The important antiques are angle image since the Rattanakosin period. It’s preserved at Phetphoompairote palace since ancient times, assumed that His Majesty the King Rama IV was pleased to build as a place of heaven. It enshrined in the north tower next to the Phiman Phimphet Hall.
+        \n\n\t\t\t<b>Exhibition</b>
+	\n\t\t\tThe Phra Nakhon Khiri National Museum has the main exhibit inside the Petch Phoomairot Palace, and the Pramote Mahaisawan Palace. The exhibition will various rooms according to the usage during the reign of King Chulalongkorn. It’s divided into the exhibit section as follows;
+	\n\t\t\tThimmadabongkharak Palace displays Phra Nakhon Khiri. festival in an ancient time until now (Basic information for visitors), and the map of Phra Nakhon Khiri.
+        \n\n\t\t\t<b>Phetphoompairot Palace</b>
+	\n\t\t\tThe dining is held in front of Phetphoompairot room
+	\n\t\t\tThe bedroom of the guests and the living room are held at the back of Phetphoompairot.
+        \n\n\t\t\t<b>Room</b></string>
+
+    <string name="content02En">
+	\n\t\t\tThe living room is held in the east of Phetphoompairot.
+	\n\t\t\tThe bathroom is held in the west of Phetphoompairot.
+        \n\n\t\t\t<b>Pramotmahaisawan Palace</b>
+	\n\t\t\tThere are a bedroom, dressing room and study room on the top of Pramtmahaisawan Palace
+   	\n\t\t\tThere is a weapon on the base floor.
+\nAncient objects are displayed and preserved in the Phra Nakhon Khiri National Museum, can be divided into 3 major categories which are
+    \n\t\t\t1. A pedestal tray of King Rama IV and King Rama IV King Chulalongkorn, Rama V, such as the sleeping Buddha image bed, table for studying, tables and chairs for visitors, dining table, and dressing table, etc.
+    \n\t\t\t2. Bronze and brass metal statues are used for decorating various rooms.
+    \n\t\t\t3. There are both Chinese wares and Japanese wares such as flower pots and dinner sets.</string>
+
+    <string name="content01Th">\t\t\tเป็นพิพิธภัณฑสถานแห่งชาติ พระนครคีรี จัดตั้งเมื่อวันที่ 27 สิงหาคม พ.ศ. 2522 เป็นพิพิธภัณฑ์ประเภทอนุสรณ์สถาน โดยได้นำเครื่องราชูปโภคทั้งหมดที่ได้รับมอบกลับคืนมาจากสำนักพระราชวัง และกระทรวงมหาดไทย นำมาขึ้นทะเบียนเป็นโบราณวัตถุ อนุรักษ์และนำออกจัดแสดงภายในพระที่นั่งเพชรภูมิไพโรจน์ และพระที่นั่งปราโมทย์มไหสวรรย์
+	\n\t\t\tโบราณวัตถุที่สำคัญ คือ เทวดา แบบศิลปะรัตนโกสินทร์  เป็นของที่เก็บรักษาอยู่ที่พระที่นั่งเพชรภูมิไพโรจน์มาแต่เดิม สันนิษฐานว่าพระบาทสมเด็จพระจอมเกล้าเจ้าอยู่หัวโปรดเกล้าฯให้สร้างขึ้นเพื่อเป็นพระภูมิประจำเขามหาสวรรค์ ประดิษฐานอยู่ในหอทางทิศเหนือข้างหอพิมานเพชรมเหศวร์   นำมาจัดแสดงที่พิพิธภัณฑสถานแห่งชาติ พระนครคีรี
+        \n\n\t\t\t<b>การจัดแสดงนิทรรศการ</b>
+	\n\t\t\tพิพิธภัณฑสถานแห่งชาติ พระนครคีรี  มีส่วนจัดแสดงหลักอยู่ภายในพระที่นั่งเพชรภูมิไพโรจน์ และพระที่นั่งปราโมทย์มไหสวรรย์ โดยมีการจำลองลักษณะการใช้งานของห้องต่างๆตามลักษณะการใช้งานในรัชสมัยพระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว โดยแบ่งเป็นส่วนจัดแสดง ดังนี้
+	\n\t\t\tทิมดาบองครักษ์ : จัดแสดงนิทรรศการพระนครคีรี อดีตสู่ปัจจุบัน (ข้อมูลเบื้องต้นสำหรับผู้เข้าชม) และแผนผังพระนครคีรี
+        \n\n\t\t\t<b>พระที่นั่งเพชรภูมิไพโรจน์</b>
+        \n\t\t\tท้องพระโรงเดิมด้านหน้า    จัดเป็นห้องเสวยและห้องพระสุธารสชา
+    	\n\t\t\tท้องพระโรงเดิมด้านหลัง    จัดเป็นห้องบรรทมพระราชอาคันตุกะ และห้องพักผ่อนพระอิริยาบท</string>
+
+    <string name="content02Th">\t\t\tมุขด้านทิศตะวันออก          จัดเป็นห้องทรงพระสำราญ
+    		\n\t\t\tมุขด้านทิศตะวันตก            จัดเป็นห้องสรงและห้องลงพระบังคน
+\n\t\t\t<b>พระที่นั่งปราโมทย์มไหสวรรย์</b>
+    		\n\t\t\tชั้นบน             จัดเป็นห้องบรรทมส่วนพระองค์  ห้องแต่งพระองค์ และห้องทรงพระอักษร
+    		\n\t\t\tชั\้นล่าง            จัดแสดงเครื่องศาสตราวุธ
+\n\t\t\tโบราณศิลปวัตถุ ที่จัดแสดงและเก็บรักษาไว้ในพิพิธภัณฑสถานแห่งชาติ พระนครคีรี จำแนกได้เป็น 3 ประเภทใหญ่ๆ คือ
+    		\n\t\t\tเครื่องราชูปโภคของพระบาทสมเด็จพระจอมเกล้าเจ้าอยู่หัวรัชกาลที่ 4 และพระบาทสมเด็จ พระจุลจอมเกล้าเจ้าอยู่หัว รัชกาลที่ 5 เช่น พระแท่นบรรทม โต๊ะทรงพระอักษร โต๊ะและเก้าอี้รับแขก โต๊ะเสวย และโต๊ะเครื่องพระสำอาง เป็นต้น
+    		\n\t\t\tรูปหล่อโลหะสำริดและทองเหลือง ใช้สำหรับตกแต่งห้องต่างๆ
+    		\n\t\t\tเครื่องกระเบื้อง มีทั้งเครื่องกระเบื้องของจีน เช่น กระถางต้นไม้และกี๋รองกระถาง เครื่องกระเบื้องของญี่ปุ่น เช่น แจกัน ชุดอาหาร (dinner set) ชุดสรงพระพักตร์ และขวดเครื่องพระสำอาง</string>
+
+    <string name="content01Ch">
+	\t\t\t帕那空奇里国家博物馆，建于佛历2522年8月27日。作为一个纪念博物馆，里面陈列着由王宫和内务部递献的各御用物品。这些御用物品以古物的名义注册、保存并展览于碧蓬派落殿和巴莫玛海沙旺殿。
+	\n\t\t\t博物馆内的重要古物有：天神神像—曼谷王朝的艺术，作为一直守护碧蓬派落殿的圣物，据推测它由拉玛四世国王下令建造，用来做守护神。如今作为帕那空奇里国家博物馆的展品，竖立在ห仪式堂边上的北屋里。
+	\n\t\t\t帕那空奇里国家博物馆的主要展点在碧蓬派落殿和巴莫玛海沙旺殿，这两座宝殿模仿拉玛五世时期的建筑风格建成的，又分为一下展点。
+        \n\t\t\t1. 护卫部 ：展示帕那空奇里或考王行宫的历史来历，以及考王行宫的地图
+        \n\t\t\t2.碧蓬派落宝殿</string>
+
+    <string name="content02Ch">
+				\n\t\t\t		- 宫殿大厅前为用膳和听政之地
+				\n\t\t\t		- 大厅后为寝宫
+				\n\t\t\t		- 东边为行乐之所
+				\n\t\t\t		- 西边为御池和宫房。
+        \n\t\t\t3. 巴莫玛海沙旺宝殿：
+				\n\t\t\t		-上层：展示国王的寝殿、梳妆室、浴室和书房。
+				\n\t\t\t		-下层：展示兵器。
+		\n\t\t\t4. 古物：展览在帕那空奇里国家博物馆的各古物，分为三大类，即：
+				\n\t\t\t		- 拉玛四世和拉玛五世的御用器物，如龙榻、龙案、迎宾桌、迎宾椅、餐桌、梳妆台等等。
+				\n\t\t\t		- 用来装饰房间的各类合金和黄金饰品。
+				\n\t\t\t		- 各类瓷器，有中国瓷器，如花盆和放置花盆的小桌子；日本瓷器，如花瓶、餐具、洗护用具和化妆品容器等等。
+    </string>
 
     <!-- TODO: Remove or change this placeholder text -->
-
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

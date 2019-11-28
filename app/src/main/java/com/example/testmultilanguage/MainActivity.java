@@ -1,11 +1,11 @@
 package com.example.testmultilanguage;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
 
 import com.example.testmultilanguage.fragment.MainFragment;
+import com.example.testmultilanguage.fragment.MapFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         if (savedInstanceState == null) {
             getSupportFragmentManager()
                     .beginTransaction()
-                    .add(R.id.contentMainFragment, new MainFragment())
+                    .add(R.id.contentMainFragment, new MapFragment())
                     .commit();
         }
     }

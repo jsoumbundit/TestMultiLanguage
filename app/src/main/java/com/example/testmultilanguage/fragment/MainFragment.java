@@ -11,10 +11,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.testmultilanguage.R;
+import com.google.android.gms.maps.GoogleMap;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 
@@ -25,8 +27,13 @@ public class MainFragment extends Fragment {
     private Animation fab_close2, fab_open2;
     TextView text_ViewEn, text_ViewTh, text_ViewCh;
 
-    Boolean fab_add_isOpen = false;
+    private String tag = "25OctV1";
+
+    boolean fab_add_isOpen = false;
     boolean fab_language_isOpen = false;
+
+
+    private GoogleMap mMap;
 
 
     @Override
@@ -35,7 +42,7 @@ public class MainFragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
 
         fabOpenActivity();
-        //fabLanguageActivity();
+
 
     }
 
@@ -140,27 +147,36 @@ public class MainFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getContext(), "English", Toast.LENGTH_SHORT).show();
-                setHeader(getText(R.string.header01En).toString());
+                setHeader(R.string.header01En);
+                setContent01(R.string.content01En);
+                setContent02(R.string.content02En);
+                setImageView();
                 allSubFloatingButtonClose(fab_language_isOpen);
             }
         });
 
 
-        fab_Thai_Flag.setOnClickListener(new View.OnClickListener() {
+        fab_Thai_Flag.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getContext(), "Thai", Toast.LENGTH_SHORT).show();
-                setHeader(getText(R.string.header01Th).toString());
+                setHeader(R.string.header01Th);
+                setContent01(R.string.content01Th);
+                setContent02(R.string.content02Th);
+                setImageView();
                 allSubFloatingButtonClose(fab_language_isOpen);
             }
         });
 
 
-        fab_China_Flag.setOnClickListener(new View.OnClickListener() {
+        fab_China_Flag.setOnClickListener( new  View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getContext(), "Cantonese", Toast.LENGTH_SHORT).show();
-                setHeader(getText(R.string.header01Ch).toString());
+                setHeader(R.string.header01Ch);
+                setContent01(R.string.content01Ch);
+                setContent02(R.string.content02Ch);
+                setImageView();
                 allSubFloatingButtonClose(fab_language_isOpen);
             }
         });
@@ -192,9 +208,24 @@ public class MainFragment extends Fragment {
         fab_language_isOpen = false;
     }
 
-    private void setHeader(String s) {
+    private void setImageView() {
+        ImageView imageView01 = getView().findViewById(R.id.imageView01);
+        ImageView imageView02 = getView().findViewById(R.id.imageView02);
+        imageView01.setVisibility(View.VISIBLE);
+        imageView02.setVisibility(View.VISIBLE);
+    }
+
+    private void setHeader(Object o) {
         TextView textViewHeader = getView().findViewById(R.id.textHeader);
-        textViewHeader.setText(s);
+        textViewHeader.setText(o.hashCode());
+    }
+    private void setContent01(Object o) {
+        TextView textContent = getView().findViewById(R.id.textContent01);
+        textContent.setText(o.hashCode());
+    }
+    private void setContent02(Object o) {
+        TextView textContent = getView().findViewById(R.id.textContent02);
+        textContent.setText(o.hashCode());
     }
 
 
